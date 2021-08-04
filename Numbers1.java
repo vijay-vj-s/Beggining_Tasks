@@ -1,4 +1,4 @@
-public class Numbers{
+public class Numbers1{
 	
 	  
    public static void main(String []arrays){
@@ -12,7 +12,7 @@ public class Numbers{
 	int num1=Integer.parseInt(arrays[0]);
 	
 	int num2=Integer.parseInt(arrays[1]);
-    
+    	
     int num3=Integer.parseInt(arrays[2]);
 	
     int num4=Integer.parseInt(arrays[3]);
@@ -29,8 +29,8 @@ public class Numbers{
 	 
    catch(NumberFormatException e){
 	   
-		 System.out.println("the input is wrong at position :");
-    e.printStackTrace();
+		 System.out.println("Enter the wrong input position "  );
+    
 	}
 	
  }
